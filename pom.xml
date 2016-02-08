@@ -7,7 +7,13 @@
     <packaging>jar</packaging>
     <version>0.1</version>
     <name>level2</name>
-    <url>http://www.microarray-analysis.org/</url>
+    <organization>
+        <name>
+            Integrative Transcriptomics, Center for Bioinformatics,
+            University of Tuebingen, Germany
+        </name>
+    </organization>
+    <url>http://www.it.informatik.uni-tuebingen.de</url>
     <dependencies>
 
         <dependency>
