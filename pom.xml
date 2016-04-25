@@ -5,8 +5,8 @@
     <groupId>mayday</groupId>
     <artifactId>gaggle</artifactId>
     <packaging>jar</packaging>
-    <version>0.1</version>
-    <name>level2</name>
+    <version>2.30</version>
+    <name>gaggle</name>
     <organization>
         <name>
             Integrative Transcriptomics, Center for Bioinformatics,
@@ -19,21 +19,21 @@
         <dependency>
             <groupId>mayday</groupId>
             <artifactId>core</artifactId>
-            <version>2.14</version>
+            <version>2.30</version>
             <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>mayday</groupId>
             <artifactId>level2</artifactId>
-            <version>0.5</version>
+            <version>2.30</version>
             <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>mayday</groupId>
             <artifactId>pathway</artifactId>
-            <version>1.0</version>
+            <version>2.30</version>
             <scope>compile</scope>
         </dependency>
 
@@ -116,25 +116,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>jxr-maven-plugin</artifactId>
-                <version>2.5</version>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-pmd-plugin</artifactId>
-                <version>3.5</version>
-                <configuration>
-                    <linkXref>true</linkXref>
-                    <sourceEncoding>utf-8</sourceEncoding>
-                    <targetJdk>1.7</targetJdk>
-                </configuration>
-            </plugin>
-        </plugins>
-    </reporting>
-
 </project>
